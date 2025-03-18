@@ -1,0 +1,12 @@
+.bt {
+    color: chocolate;
+}
+.bt_quit {
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    border-radius: 40px;
+}
+.separator {
+    background-color: tomato;
+}
