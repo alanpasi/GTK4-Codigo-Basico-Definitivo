@@ -1,1 +1,0 @@
-/usr/bin/cc -D_GNU_SOURCE -Wall -std=c17 -g -rdynamic CMakeFiles/gtk_application_window.dir/gtk_application_window.c.o -o bin/gtk_application_window  -lgtk-4 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lvulkan -lgraphene-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0

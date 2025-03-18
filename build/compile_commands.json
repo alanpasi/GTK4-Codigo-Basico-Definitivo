@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/alanpasi/dev/GTK/GTK4/gtk4_codigo_basico_definitivo/build",
-  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -D_GNU_SOURCE -Wall -std=c17 -g   -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -mfpmath=sse -msse -msse2 -pthread -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/gtk_application_window.dir/gtk_application_window.c.o -c /home/alanpasi/dev/GTK/GTK4/gtk4_codigo_basico_definitivo/gtk_application_window.c",
-  "file": "/home/alanpasi/dev/GTK/GTK4/gtk4_codigo_basico_definitivo/gtk_application_window.c",
-  "output": "CMakeFiles/gtk_application_window.dir/gtk_application_window.c.o"
-}
-]
