@@ -9,7 +9,7 @@ static void click_quit(GtkButton *button, GtkApplicationWindow *window) {
   gtk_window_destroy (GTK_WINDOW (window));
 }
 
-static void activate(GApplication *app, gpointer *user_data) {
+static void activate(GApplication *app, gpointer user_data) {
 
   GtkWidget *window;
   GtkWidget *label1;

@@ -1,0 +1,71 @@
+using Gtk 4.0;
+
+ApplicationWindow window {
+    Grid grid1 {
+        column-homogeneous: true;
+        row-homogeneous: true;
+
+        Box box1 {
+            homogeneous: true;
+            orientation: vertical;
+
+            Label label1 {
+                halign: center;
+                label: "Label 1";
+                valign: center;
+            }
+
+            Separator separator1 {
+                margin-end: 50;
+                margin-start: 50;
+                valign: center;
+            }
+
+            layout {
+                column: "0";
+                row: "0";
+            }
+        }
+
+        Box box2 {
+            homogeneous: true;
+
+            Button button1 {
+                halign: center;
+                label: "Button 1";
+                valign: center;
+            }
+
+            Button button2 {
+                halign: center;
+                label: "Button 2";
+                valign: center;
+            }
+
+            layout {
+                column: "0";
+                row: "1";
+            }
+        }
+
+        Box box3 {
+            homogeneous: true;
+
+            Button quit {
+                halign: center;
+                label: "_Quit";
+                use-underline: true;
+                valign: center;
+
+                styles [
+                    "suggested-action",
+                ]
+            }
+
+            layout {
+                column: "0";
+                row: "2";
+            }
+        }
+    }
+}
